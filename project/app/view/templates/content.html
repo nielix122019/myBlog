@@ -1,0 +1,13 @@
+<div ng-include="'./app/view/templates/content-header.html'"></div>
+<div class="panel blogsPost">
+  <div class="panel-body">
+
+
+    <!-- content body -->
+    <div ng-repeat="post in posts">
+      <data-blog-post post="post"></data-blog-post>
+    </div>
+    <!-- End of content body -->
+
+  </div>
+</div>

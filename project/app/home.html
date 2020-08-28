@@ -1,0 +1,25 @@
+<nav class="navbar ownNavbar" ng-controller="homeController">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- Banner -->
+      <a class="navbar-brand navbar-side" ui-sref="view">
+        <span class="text-uppercase font-weight-bold">WEBTECH SECURITY</span>
+      </a>
+      <!-- End of Banner -->
+      <!-- Navigation bar -->
+      <ul class="nav navbar-nav">
+        <li ng-class="{'active': currentMenu === 'view'}"><a ui-sref="view" ng-click="currentMenu = 'view'">Home</a></li>
+        <li ng-class="{'active': currentMenu === 'profile'}"><a ui-sref="profile" ng-click="currentMenu = 'profile'">Profile</a></li>
+        <li ng-class="{'active': currentMenu === 'new'}"><a ui-sref="new" ng-click="currentMenu = 'new'">Create New</a></li>
+      </ul>
+      <!-- End of Navigation bar -->
+    </div>
+  </div>
+</nav>
+<div class="container nav-container">
+  <div class="col-md-12"><br></div>
+
+  <div class="col-md-12" ui-view>
+
+  </div>
+</div>

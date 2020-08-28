@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #282C34;
+}
+/* own navbar */
+.ownNavbar {
+  background: #21252B;
+  color: #FFFFFF;
+}
+.ownNavbar .navbar-side{
+  color:  #1bfd9c;
+}
+.ownNavbar ul li a{
+  color: #FFFFFF;
+}
+.ownNavbar ul li a:hover{
+  background: #1bfd9c;
+  color: #FFFFFF;
+}
+.ownNavbar ul li a:active{
+  background: #1bfd9c;
+  color: #21252B;
+}
+.nav-container {
+  background: #21252B;
+}
+.ulLinks{
+  background: #282C34;
+  color: #FFFFFF;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+}
+.ulLinks li a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.blogsPost {
+  background: #282C34;
+  color: #FFFFFF;
+}
+.webtech {
+  background: #21252B;
+}
+.panel-exper{
+  background: #282C34;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+.panel-exper h4 small{
+  color: #FFFFFF;
+}
+.panel-post {
+  background: #282C34;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}

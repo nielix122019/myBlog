@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "Creating my own blog",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify ./project/app/index.js -o ./project/dist/index.js"
+  },
+  "author": "Sir. Neil",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.27",
+    "angular": "^1.8.0",
+    "angular-toastr": "^2.1.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1"
+  }
+}

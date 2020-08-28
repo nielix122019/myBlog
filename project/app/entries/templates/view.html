@@ -1,0 +1,19 @@
+<div ng-controller="entriesController">
+  <div class="col-md-3">
+    <!-- Profile -->
+    <div ng-include="'./app/profile/templates/profile.html'"></div>
+    <!-- End of Profile -->
+
+    <!-- Info -->
+    <div ng-include="'./app/profile/templates/information.html'"></div>
+    <!-- Skills -->
+    <div ng-include="'./app/profile/templates/skills.html'"></div>
+
+    <!-- End if Info -->
+  </div>
+  <div class="col-md-6">
+    <div ng-include="'./app/entries/templates/manage.html'"></div>
+  </div>
+  <div class="col-md-3">
+  </div>
+</div>
